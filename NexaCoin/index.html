@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Token - NexaCoin</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="Logo.jpg" alt="Logo del Token">
+                    <span>NexaCoin (NXC)</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">Sobre el Token</a></li>
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#roadmap">Roadmap</a></li>
+                    <li><a href="#team">Equipo</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+                <button class="connect-wallet" id="connectWallet">Conectar Wallet</button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>El futuro de las finanzas descentralizadas está aquí</h1>
+                <p>NexaCoin (NXC) es un Token revolucionario diseñado para transacciones con bajo interés.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Comprar ahora</button>
+                    <button class="btn-secondary">Whitepaper</button>
+                </div>
+                <div class="token-info">
+                    <div class="info-item">
+                        <span>Precio:</span>
+                        <span id="tokenPrice">$0.00</span>
+                    </div>
+                    <div class="info-item">
+                        <span>Market Cap:</span>
+                        <span id="marketCap">$0.00</span>
+                    </div>
+                    <div class="info-item">
+                        <span>Holders:</span>
+                        <span id="holders">0</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="Logo.jpg" alt="Imagen del Token">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2>Sobre NexaCoin (NXC)</h2>
+            <p>NexaCoin es un token innovador desarrollado en Boop que ofrece soluciones financieras descentralizadas con bajas comisiones.</p>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Tecnología</h3>
+                    <p>Desarrollado en Boop.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Utilidad</h3>
+                    <p>Medio de intercambio, staking con recompensas y acceso a servicios exclusivos.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Tokenomics</h3>
+                    <p>Suministro total: 100M NXC. Distribución equitativa y sin whales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="section features">
+        <div class="container">
+            <h2>Características Principales</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Seguridad</h3>
+                    <p>Contratos inteligentes auditados y protocolos de seguridad avanzados.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Escalabilidad</h3>
+                    <p>Diseñado para manejar un alto volumen de transacciones.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Comunidad</h3>
+                    <p>Enfoque en el crecimiento y participación de la comunidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="roadmap" class="section roadmap-vertical">
+        <div class="container">
+            <h2>Nuestra Hoja de Ruta</h2>
+            <p class="section-subtitle">Desarrollo en Boop condicionado a capitalización</p>
+            
+            <div class="timeline-vertical">
+                <!-- Fase 1 -->
+                <div class="timeline-phase completed">
+                    <div class="phase-header">
+                        <div class="phase-number">1</div>
+                        <div class="phase-title-date">
+                            <h3>Lanzamiento Inicial</h3>
+                            <span class="phase-date">Q1 2023 - Completado</span>
+                        </div>
+                    </div>
+                    <div class="phase-content">
+                        <ul>
+                            <li>Desarrollo del contrato inteligente en Boop</li>
+                            <li>Lanzamiento inicial del token</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Fase 2 -->
+                <div class="timeline-phase current">
+                    <div class="phase-header">
+                        <div class="phase-number">2</div>
+                        <div class="phase-title-date">
+                            <h3>Expansión</h3>
+                            <span class="phase-date">En desarrollo</span>
+                        </div>
+                    </div>
+                    <div class="phase-content">
+                        <ul>
+                            <li>Desarrollo continuo en Boop según capitalización</li>
+                            <li>Actualizaciones de la plataforma</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Fase 3 -->
+                <div class="timeline-phase">
+                    <div class="phase-header">
+                        <div class="phase-number">3</div>
+                        <div class="phase-title-date">
+                            <h3>Futuro</h3>
+                            <span class="phase-date">Próximamente</span>
+                        </div>
+                    </div>
+                    <div class="phase-content">
+                        <ul>
+                            <li>Nuevas funcionalidades según crecimiento</li>
+                            <li>Actualizaciones del ecosistema</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="roadmap-note">
+                <p>El desarrollo continuo en Boop y las actualizaciones de esta página dependen del crecimiento de capitalización del proyecto.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="Logo.jpg" alt="Logo del Token">
+                    <span>NexaCoin (NXC)</span>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="#">Documentación</a></li>
+                        <li><a href="#">Auditoría</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Redes Sociales</h3>
+                    <div class="social-icons">
+                        <a href="#"><img src="X.png" alt="X"></a>
+                        <a href="#"><img src="telegram.png" alt="Telegram"></a>
+                        <a href="#"><img src="discord.png" alt="Discord"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 NexaCoin. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.2/dist/web3.min.js"></script>
+</body>
+</html>
